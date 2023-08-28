@@ -1,0 +1,57 @@
+body {
+  margin-left: 20px;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+form {
+  margin: 15px;
+}
+
+main {
+  display: inline-block;
+  border: 2px solid black;
+  /* padding: 20px; */
+}
+
+#output {
+  color: #01f;
+  font-size: 2em;
+  display: inline;
+}
+
+button, input[type=submit] {
+  padding: 8px;
+  background-color: dodgerblue;
+  color: white;
+  width: 165px;
+}
+
+input[type=submit] {
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 450px;
+}
+
+button {
+  float: right;
+}
+
+#success {
+  display: none;
+  position: relative;
+  bottom: 12px;
+  background-color: rgba(0, 255, 0, 0.25);
+  color: rgba(0, 0, 100, 0.8);
+  text-align: center;
+  padding: 8px;
+  width: 200px;
+  float: right;
+  margin: 0;
+}
+
